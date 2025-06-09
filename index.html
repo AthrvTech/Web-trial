@@ -8,69 +8,67 @@
 </head>
 <body>
 
-  <!-- Navbar -->
-  <header class="navbar">
+  <header>
     <div class="logo">NQ</div>
-    <div class="hamburger" onclick="toggleMenu()">☰</div>
-    <nav id="nav-links" class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
-      <a href="https://wa.me/918779989576">WhatsApp</a>
+    <nav id="navbar">
+      <ul class="nav-links">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Why Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="https://wa.me/918779989576" target="_blank">Connect</a></li>
+      </ul>
     </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1>Nexon Quantum</h1>
-      <h2><span class="typed-text"></span><span class="cursor">|</span></h2>
+      <h1>Welcome to <span>Nexon Quantum</span></h1>
+      <h2><span class="typing-text"></span></h2>
       <button onclick="location.href='projects.html'">Explore Now</button>
     </div>
-    <div class="hero-animation">
-      <!-- Placeholder for 3D NeuroLink (to be improved with JS or SVG later) -->
-      <div class="neuro-circle"></div>
+    <div class="galaxy-bg">
+      <!-- animation background -->
+      <div class="neuro-link"></div>
     </div>
   </section>
 
-  <!-- Services -->
   <section class="services">
-    <h3>Our Expertise</h3>
-    <div class="service-boxes">
-      <div class="service">Web Development</div>
-      <div class="service">App Development</div>
-      <div class="service">AI Solutions</div>
-      <div class="service">Game Development</div>
+    <h2>Our Expertise</h2>
+    <div class="service-grid">
+      <div class="box">Web Development</div>
+      <div class="box">App Development</div>
+      <div class="box">AI Solutions</div>
+      <div class="box">Game Development</div>
     </div>
   </section>
 
-  <!-- Feedback -->
   <section class="feedback">
-    <h3>Client Feedback</h3>
-    <div class="feedbacks">
-      <div class="msg">"Amazing service!" ⭐⭐⭐⭐⭐ — Dhruv</div>
-      <div class="msg">"Loved the UI/UX!" ⭐⭐⭐⭐ — Aryan</div>
-      <div class="msg">"Professional team." ⭐⭐⭐⭐⭐ — Himanshu</div>
-      <div class="msg">"Super clean code." ⭐⭐⭐⭐ — Anushka</div>
-      <div class="msg">"Great response time." ⭐⭐⭐⭐ — Ahmad</div>
-      <div class="msg">"Highly recommend!" ⭐⭐⭐⭐⭐ — Farooq</div>
-      <div class="msg">"Next-gen solutions!" ⭐⭐⭐⭐⭐ — Athrv</div>
+    <h2>Client Feedback</h2>
+    <div class="feedback-container">
+      <div class="feedback-msg">"Amazing service!" – Dhruv ⭐⭐⭐⭐⭐</div>
+      <div class="feedback-msg">"Fast and professional." – Aryan ⭐⭐⭐⭐⭐</div>
+      <div class="feedback-msg">"Loved the UI!" – Himanshu ⭐⭐⭐⭐</div>
+      <div class="feedback-msg">"Smart solutions!" – Anushka ⭐⭐⭐⭐⭐</div>
+      <div class="feedback-msg">"Helpful team!" – Ahmad ⭐⭐⭐⭐</div>
+      <div class="feedback-msg">"Quick support!" – Farooq ⭐⭐⭐⭐⭐</div>
+      <div class="feedback-msg">"Highly recommend." – Athrv ⭐⭐⭐⭐⭐</div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <div class="note">
-      <h4>CEO's Note</h4>
-      <p>We at Nexon Quantum believe in building the future of technology with purpose and innovation.</p>
+      <h3>Note from CEO</h3>
+      <p>We build with vision, strategy, and next-gen technology.</p>
     </div>
     <div class="contact">
-      <p>📧 connect@nexonquantum.com</p>
-      <p>📱 +91 8779989576</p>
-      <a href="https://wa.me/918779989576" target="_blank" class="whatsapp">💬 WhatsApp Us</a>
+      <p>📞 +91-8779989576</p>
+      <p>📧 contact@nexonquantum.com</p>
     </div>
   </footer>
+
+  <a href="https://wa.me/918779989576" class="whatsapp-float" target="_blank">💬</a>
 
   <script src="script.js"></script>
 </body>
